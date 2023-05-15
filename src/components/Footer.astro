@@ -1,0 +1,24 @@
+---
+import Social from './Social.astro';
+const social = [
+    {
+        platform: "github",
+        username: "tb4mmaggots",
+    },
+    {
+        platform: "linkedin",
+        username: "in/riaanstegmann",
+    }
+];
+---
+<style define:vars="{{}}">
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+
+<footer>
+    {social.map((network) => <Social platform={network.platform} username={network.username}/>)}
+</footer>

@@ -1,0 +1,29 @@
+---
+import Navigation from './Navigation.astro'
+import Hamburger from './Hamburger.astro'
+
+const navs = [
+    {
+        href: "/",
+        title: "Home",
+    },
+    {
+        href: "/about",
+        title: "About",
+    },
+    {
+        href: "/blog",
+        title: "Blog",
+    },
+    {
+        href: "/tags",
+        title: "Tags",
+    },
+]
+---
+<header>
+    <nav>
+        <Hamburger />
+        <Navigation navs={navs}>
+    </nav>
+</header>

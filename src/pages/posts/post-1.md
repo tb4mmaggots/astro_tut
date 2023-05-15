@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MDPostLayout.astro
 title: 'First Blog Post'
 pubDate: 2023-05-10
 description: 'First post in my tut astro app'
@@ -8,12 +9,6 @@ image:
     alt: 'Funny Engineering Meme'
 tags: ["astro", "blogging", "learn in public"]
 ---
-# My First Blog Post
-
-Published on: 2023-05-12
-
-Welcome to the most amazin blog you'll ever see.
-
 ## What I've done
 
 1. **Install Astro**: Astro project created

@@ -1,0 +1,7 @@
+---
+import NavLink from './NavLink.astro'
+const {navs} = Astro.props;
+---
+<div class="nav-links">
+    {navs.map((nav) => <NavLink href={nav.href} title={nav.title}/>)}
+</div>
