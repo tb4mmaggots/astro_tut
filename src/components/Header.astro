@@ -1,6 +1,7 @@
 ---
 import Navigation from './Navigation.astro'
 import Hamburger from './Hamburger.astro'
+import ThemeIcon from './ThemeIcon.astro';
 
 const navs = [
     {
@@ -24,6 +25,7 @@ const navs = [
 <header>
     <nav>
         <Hamburger />
+        <ThemeIcon />
         <Navigation navs={navs}>
     </nav>
 </header>
